@@ -1,0 +1,54 @@
+body{
+    display: flex;
+}
+
+#lefSide{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftSide img{
+    width: 30vw;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#imgSource{
+    position:relative;
+    
+}
+
+#rightSide{
+    display:flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+#topSection{
+    height: 350px;
+    background-color: gray;
+}
+
+#formSection{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: white;
+}
+
+#formLeft{
+    display: flex;
+    width: 25vw;
+    height:auto;
+}
+
+#formRight{
+    display: flex;
+}
+
+
+#bottomSection{
+    height: 350px;
+    background-color: gray;
+}
