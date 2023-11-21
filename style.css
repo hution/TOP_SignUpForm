@@ -32,23 +32,32 @@ body{
 
 #formSection{
     display: flex;
-    flex-direction: column;
     height: 350px;
     background-color: white;
 }
 
 #formLeft{
     display: flex;
+    flex-direction: column;
     width: 25vw;
     height:auto;
 }
 
 #formRight{
     display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height:auto;
 }
 
 
 #bottomSection{
     height: 350px;
     background-color: gray;
+}
+
+#createAccount{
+    color: white;
+    background-color: #596D48;
+    border-radius: 5px;
 }
