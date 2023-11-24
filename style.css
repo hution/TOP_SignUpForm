@@ -5,11 +5,11 @@ body{
 #lefSide{
     display: flex;
     flex-direction: column;
+    width: 30vw;
+    height: auto;
 }
 
 #leftSide img{
-    width: 30vw;
-    height: auto;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -30,10 +30,14 @@ body{
     background-color: gray;
 }
 
-#formSection{
-    display: flex;
+#middleSection{
     height: 350px;
     background-color: white;
+
+}
+
+#formSection{
+    display: flex;
 }
 
 #formLeft{
