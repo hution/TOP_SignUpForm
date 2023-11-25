@@ -1,3 +1,7 @@
+/* *{
+    border: 1px solid red;
+} */
+
 body{
     display: flex;
 }
@@ -15,7 +19,11 @@ body{
 }
 
 #imgSource{
+    display:flex;
     position:relative;
+    bottom: 30px;
+    align-items: center;
+    color: white;
     
 }
 
@@ -32,25 +40,28 @@ body{
 
 #formSection{
     display: flex;
+    /* flex-direction: column; */
     height: 350px;
     background-color: white;
+    margin: 10px;
+
 }
 
 #formLeft{
     display: flex;
-    flex-direction: column;
     width: 25vw;
     height:auto;
 }
 
 #formRight{
     display: flex;
-    flex-direction: column;
     width: 25vw;
     height:auto;
 }
 
-
+form{
+    padding: 10px;
+}
 #bottomSection{
     height: 350px;
     background-color: gray;
