@@ -9,11 +9,11 @@ body{
 #lefSide{
     display: flex;
     flex-direction: column;
+    width: 30vw;
+    height: auto;
 }
 
 #leftSide img{
-    width: 30vw;
-    height: auto;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -38,11 +38,15 @@ body{
     background-color: gray;
 }
 
-#formSection{
-    display: flex;
+#middleSection{
     /* flex-direction: column; */
     height: 350px;
     background-color: white;
+
+}
+
+#formSection{
+    display: flex;
     margin: 10px;
 
 }
